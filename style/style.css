@@ -1,0 +1,20 @@
+body {
+   margin: 0 auto;
+   padding: 30px 0;
+   max-width: 300px;
+   background: #ddd;
+}
+.wrapper {
+   display: flex;
+   gap: 20px;
+}
+.block1, .block2 {
+   max-width: 135px;
+   text-align: center;
+}
+.square {
+   display: inline-block;
+   width: 25px;
+   height: 25px;
+   margin-bottom: -4px;
+};
